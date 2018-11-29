@@ -82,3 +82,16 @@ class TestShoppingCart(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+""" 
+Correr coverage para los test de covertura
+
+coverage run test_shopping_cart.py
+coverage report -m shopping_cart.py
+
+Generar reportes en html
+coverage html shopping_cart.py
+
+cd htmlcov
+python -m http.server
+"""
