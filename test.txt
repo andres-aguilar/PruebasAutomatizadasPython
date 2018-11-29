@@ -11,4 +11,12 @@ La suma de 10 + 20 es igual a 30
 
 la suma de 10 + 20 + 30 es igual a 60
 >>> suma(10, 20, 30)
-61
+60
+
+
+>>> from algoritmos import fibonacci
+>>> fibonacci(12)
+144
+
+>>> fibonacci(16)
+987
